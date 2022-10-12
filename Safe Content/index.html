@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Safe Content</title>
+</head>
+
+<body>
+    <section>
+        <h3 class="headline-input">Username</h2>
+        <input 
+            type="text" 
+            class="input username"
+            placeholder="Enter Username"
+        />
+    </section>
+
+    <section>
+        <h3 class="headline-input">Password</h3>
+        <input 
+            type="text"
+            class="input password"
+            placeholder="Enter Password" 
+        />
+    </section>
+
+    <button class="login-btn" onclick="onClickLogin()">
+        Login
+    </button>
+
+
+
+    <script src="js/services/safe-content.service.js"></script>
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

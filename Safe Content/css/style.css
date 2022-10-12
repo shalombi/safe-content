@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(119, 119, 119);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(5, 190, 5);
+    color: aliceblue;
+    font-size: 14px;
+    width: 190px;
+    height: 30px;
+}
+
+.login-btn:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+
+.headline-input {
+    color: aliceblue;
+}
+
+.table,
+th,
+td {
+    border: 1px solid;
+    padding: 20px
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
